@@ -109,5 +109,19 @@ SOUND_MODES = [
   ("Listening Mode Wrap-Around Up", "LMDUP"),
   ("Listening Mode Wrap-Around Down", "LMDDOWN"),
 ]
+######################
+### OSD
+######################
+OSD = [
+  ("OSD Up", "OSDUP"),
+  ("OSD Down", "OSDDOWN"),
+  ("OSD Right", "OSDRIGHT"),
+  ("OSD Left", "OSDLEFT"),
+  ("OSD Enter", "OSDENTER"),
+  ("OSD Home", "OSDHOME"),
+  ("OSD Menu", "OSDMENU"),
+  ("OSD Exit", "OSDEXIT"),
+  ("Display", "DIFTG"),
+]
 
-ALL = POWER + AUDIO + SOURCE_SELECT + SPEAKER_AB_CONTROL + SOUND_MODES
+ALL = POWER + AUDIO + SOURCE_SELECT + SPEAKER_AB_CONTROL + SOUND_MODES + OSD
