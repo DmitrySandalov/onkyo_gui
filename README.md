@@ -5,6 +5,8 @@ PyGTK GUI for Onkyo AV receivers
 
 ![alt tag](https://raw.github.com/DmitrySandalov/onkyo_gui/master/screenshots/scr1.png)
 
+* Launch the tool with `python main.py` (change IP in main function)
+
 * This gui can be easily modified :)
     * Open the comprehensive list of commands in onkyo_gui/util
     * Add commands to onkyo_gui/eiscp/onkyo_raw_commands.txt
